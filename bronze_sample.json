@@ -1,0 +1,192 @@
+{
+ "reviews": [
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FOUR",
+   "createTime": "2021-03-21T23:45:20.586153Z",
+   "updateTime": "2021-03-21T23:45:20.586153Z",
+   "name": "anon/f16494bfa98dc7a7"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-21T16:49:37.148598Z",
+   "updateTime": "2021-03-21T16:49:37.148598Z",
+   "name": "anon/aac6a2d00da36e0b"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-20T20:16:46.885048Z",
+   "updateTime": "2021-03-20T20:16:46.885048Z",
+   "name": "anon/b513de8e2e231f07"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FOUR",
+   "comment": "Buen servicio, lugar agradable y comida muy buena.\n\n(Translated by Google)\nGood service, pleasant place and very good food.",
+   "createTime": "2021-03-14T17:07:38.109988Z",
+   "updateTime": "2021-03-14T17:08:11.558812Z",
+   "name": "anon/1a6d7b338839911e"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "comment": "Genial\n\n(Translated by Google)\nBrilliant",
+   "createTime": "2021-03-13T22:33:16.050568Z",
+   "updateTime": "2021-03-13T22:33:16.050568Z",
+   "name": "anon/be5334a1a90985d4"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FOUR",
+   "comment": "Buenos , Restaurante Buenos platos italianos y carne , muy bien\n\n(Translated by Google)\nGood restaurant, good Italian dishes and meat, very good",
+   "createTime": "2021-03-13T16:36:35.114662Z",
+   "updateTime": "2021-03-13T16:36:36.592438Z",
+   "name": "anon/93fab695d2443396"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "THREE",
+   "comment": "La atención pesima no e si será por ser chavales o no ? Y la comida riquísima pero deja que desear.\n\n(Translated by Google)\nThe service was terrible, I don't know if it's because they're young or not. And the food was delicious but left something to be desired.",
+   "createTime": "2021-03-13T16:34:39.630541Z",
+   "updateTime": "2021-03-13T16:35:30.886930Z",
+   "name": "anon/1721c23b25582e41"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-10T23:40:39.217060Z",
+   "updateTime": "2021-03-10T23:40:39.217060Z",
+   "name": "anon/4f27f506444f9fc1"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-07T14:33:51.264116Z",
+   "updateTime": "2021-03-07T14:33:51.264116Z",
+   "name": "anon/f6bfb12eedd5a97d"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "comment": "Restaurante ubicado en Cazalla, plena sierra norte de Sevilla, con unas vistas excelentes y una terraza aun mejor. Se respira tranquilidad, y el servicio es muy amable y eficiente.\nLa comida es fenomenal con platos fuera de lo común y de alta calidad. Sorprende la comida italiana combinada con la carne de la sierra. Ideal para comer pese al COVID gracias a la amplitud del restaurante y la terraza. De obligada visita si se viene a Cazalla de la sierra.\n\n(Translated by Google)\nThis restaurant, located in Cazalla, in the heart of the Sierra Norte mountains of Seville, boasts excellent views and an even better terrace. A tranquil atmosphere pervades the place, and the service is very friendly and efficient.\n\nThe food is phenomenal, with unique and high-quality dishes. The combination of Italian cuisine with local mountain meats is a delightful surprise. Thanks to the restaurant's spaciousness and terrace, it's an ideal place to dine despite the COVID restrictions. A must-visit if you're in Cazalla de la Sierra.",
+   "createTime": "2021-03-06T17:36:40.860456Z",
+   "updateTime": "2021-03-06T17:40:48.626726Z",
+   "name": "anon/97c4f89295496153"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-06T16:44:50.145781Z",
+   "updateTime": "2021-03-06T16:44:50.145781Z",
+   "name": "anon/e66cd54d09057a23"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "comment": "Ya hemos repetido la visita y nos parece un buen sitio para comer con buena comida casera y bien hecha y con sevicio agradable volveremos recuerdos de Arantxa\n\n(Translated by Google)\nWe've already been back and we think it's a great place to eat, with good, well-prepared homemade food and friendly service. We'll be back. Greetings from Arantxa.",
+   "createTime": "2021-03-04T16:44:37.575374Z",
+   "updateTime": "2021-03-04T16:44:37.575374Z",
+   "name": "anon/a6cc150bc6bfeb12"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-03-01T16:28:51.858084Z",
+   "updateTime": "2021-03-01T16:28:51.858084Z",
+   "name": "anon/617ce49772c0aa7f"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "comment": "Comida casera elaborada Buenos precios. En la terraza se está muy bien con perro, comida y atención de 10. Merece la pena venir\n\n(Translated by Google)\nHomemade food at good prices. The terrace is great for dogs, and the food and service are excellent. It's worth a visit.",
+   "createTime": "2021-03-01T15:33:35.465585Z",
+   "updateTime": "2021-03-01T15:33:35.465585Z",
+   "name": "anon/36e2bddfbb343fd4"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "ONE",
+   "comment": "No nos atendieron a pesar de tener mesas. La primera vez que iba y no volveré a intentarlo\n\n(Translated by Google)\nWe weren't served despite having tables available. It was my first time there, and I won't be going back.",
+   "createTime": "2021-03-01T14:27:42.094108Z",
+   "updateTime": "2021-03-01T14:27:42.094108Z",
+   "name": "anon/ca841fe3cbc68862"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-02-28T18:54:10.339187Z",
+   "updateTime": "2021-02-28T18:54:10.339187Z",
+   "name": "anon/f7ea7af889faeccb"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "TWO",
+   "createTime": "2021-02-28T17:54:57.893390Z",
+   "updateTime": "2021-02-28T17:54:59.030395Z",
+   "name": "anon/aaea1d0ac5602bbc"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-02-27T16:31:07.561280Z",
+   "updateTime": "2021-02-27T16:31:07.561280Z",
+   "name": "anon/57d0019f1bdb17b5"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-02-27T14:50:53.328086Z",
+   "updateTime": "2021-02-27T14:50:53.328086Z",
+   "name": "anon/829dafda162be710"
+  },
+  {
+   "reviewer": {
+    "displayName": "ANON"
+   },
+   "starRating": "THREE",
+   "createTime": "2021-02-22T10:52:42.400884Z",
+   "updateTime": "2021-02-22T10:52:42.400884Z",
+   "name": "anon/abe58a1488b3d9f5"
+  }
+ ]
+}
