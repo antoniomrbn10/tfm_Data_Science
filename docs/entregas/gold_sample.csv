@@ -1,0 +1,53 @@
+review_id,created_at,year,rating,text,has_text,n_chars,lang,has_reply,reply_text
+cd9a48b1aedf7853,2011-12-21,2011,5,,False,0,,False,
+df68da3b56870b19,2013-11-14,2013,5,,False,0,,False,
+3048c003c19a9068,2015-02-09,2015,4,Comer todo un placer,True,20,es,False,
+bd9067aa3348df97,2016-02-27,2016,5,,False,0,,False,
+a422c60c483b7ca1,2016-07-24,2016,5,"Trató muy bueno
+Tranquilo
+Los tomates ecológicos y el conejo guisado riquísimos
+Muy recomendable",True,96,es,False,
+13704d8c781cce23,2016-07-26,2016,4,"Nos encanta este lugar, paisaje precioso y tranquilo, su aroma intenso a plantas aromáticas me apasiona. El servicio agradable, la comida muy buena y todo a buen precio.",True,169,es,False,
+855a0d2d6a3bbbf1,2016-08-17,2016,4,,False,0,,False,
+4b345c7794c26446,2016-09-01,2016,5,"Buen sitio para una comida espectacular y una buena sobremesa aconsejado para las familias con niños hay un parquecito muy chulo ,vistas a la sierra",True,148,es,False,
+3bcbac448e8203da,2016-09-09,2016,5,Bonito,True,6,,False,
+73fc302b6f4e304a,2016-09-25,2016,5,Cocina estupenda y personal inmejorable,True,39,es,False,
+2eb79c09073d8db4,2016-10-10,2016,5,Exelente lugar para comer o cenar en un entorno precioso . Comida de calidad a muy buen precio . Mucha variedad de platos y exelente servicio . Siempre que este por la Sierra Norte Repetire seguro,True,196,es,False,
+84c5ccbe260d01ec,2016-10-15,2016,5,Calidad y servicio en un equilibrio pocas veces conseguido!Siempre buena música de fondo acompañando la velada!,True,111,es,False,
+7f88a4e331e1ba39,2016-10-16,2016,4,Se come bie,True,11,,False,
+276d9fb0bea44476,2016-11-02,2016,5,"Es un restaurante kilómetro 0, que emplea productos de la zona y a ser posible ecológicos. Probamos el conejo en salsa, los patés de setas y de higado de pollo y cerdo, el arroz con setas, las croquetas de berenjena y parmesano, la empanadilla de perdiz. Todo exquisito. Los vinos de la zona a precios razonables. De postre recomiendo el helado de higos secos con torta de Cazalla y el tiramisú. Visitado en octubre de 2014",True,423,es,False,
+d4da781826dd1f8d,2016-11-08,2016,4,,False,0,,False,
+a1189c3d43c10924,2016-11-21,2016,3,,False,0,,False,
+b151df2f50db620b,2016-12-07,2016,5,,False,0,,False,
+8dafcd51e37b04d1,2016-12-12,2016,5,,False,0,,False,
+bb21a5ad9c821bd3,2017-01-06,2017,1,,False,0,,False,
+a4af11bd20b36826,2017-01-06,2017,5,Atentos y agradables.Buen personal atencion inmejorable y la comida de lujo.,True,76,es,False,
+81c18f0b808f428a,2017-01-11,2017,5,,False,0,,False,
+879e49f70a012a0d,2017-01-17,2017,4,"Todo exquisito y un trato inmejorable. Recomendable parar para comer la carrillada, el chorizo al vino y las papas bravas, entre otras cosas.",True,141,es,False,
+98a5f6f75ac42f24,2017-01-18,2017,5,"Localización y ambiente
+Situado a las afueras de cazalla de la sierra, es un cortijo que dispone de numerosas mesas tanto en el interior como en el exterior, y en el que asimismo hacen celebraciones. Si el tiempo acompaña, os recomiendo que solicitéis mesa en el porche exterior, donde se está algo resguardado del sol, pero se puede disfrutar de la sierra. Puntuación 4.0
+
+Cocina
+En las dos ocasiones en la que he estado aquí he salido plenamente satisfecho. Es una cocina de producto eminentemente, sin mucha pretensión, pero con una alta calidad. De los entrantes os recomiendo la probadilla de chorizo con patatas y huevo, que está de muerte y no solo porque pueda subirte el colesterol :P. Se trata de la carne del chorizo como desmigada, con patatas fritas y huevo frito, riquísima. El queso curado de oveja está también riquísimo, y creo recordar que las empanadillas de perdiz y las croquetas también estaban ricas.
+
+Como platos principales, no os perdáis el arroz con perdiz o ganso que preparan porque está ciertamente rico. Y qué decir de las carnes. Todas las que probamos (entrecot de ternera, presa ibérica y solomillo ibérico) estaban muy tiernas y muy ricas de sabor.
+
+Disponen asimismo de una amplia selección de pizzas que preparan con harina Kamut, pero que nunca he probado, y de una buena selección de postres. Puntuación 4.5
+
+Bebidas
+Disponen de una amplia variedad de vinos por botella a unos precios razonables. Puntuación 4.0
+
+Servicio
+El servicio fue bueno, siendo los camareros atentos, y sirviendo los platos en un orden y unos plazos adecuados para disfrutar de la comida. Puntuación 4.5
+
+Precio
+El precio creo que también es adecuado para la calidad y cantidad de los platos. Las ocasiones en las que he estado hemos comido por unos 20€, incluyendo vino. Puntuación 4.0
+
+En definitiva, un sitio al que vuelvo de vez en cuando y que me gusta especialmente. Puntuación global 4.5",True,1907,es,False,
+0eb3e6438bef8e5e,2017-01-22,2017,4,,False,0,,False,
+4e9719aeb94c9ce4,2017-02-12,2017,5,"Excelente menú. Pizza, pasta y postres exquisitos.",True,50,es,False,
+d291aff939e455ee,2017-02-25,2017,1,,False,0,,False,
+86155801b993e37c,2017-03-12,2017,5,Lo mejor el joio helado de higos!!!! Insuperable....lo demás todo muy bueno...,True,78,es,False,
+9ef7a8493e3da704,2017-03-22,2017,1,"Muy mal, el trato del camarero/ dueño decepcionante. Llegamos un chaval camarero nos dijo que nos limpiaba una de las mesas libres para tomar unos cafés, serían las 16,30 y veníamos de ruta por el Parque Natural. Al pronto llego el dueño o superior (no se el rango) y nos echó básicamente diciendo que si no íbamos a comer no (Cuando había varias mesas libres y nadie esperando)....Rápidamente una señora intentó solucionarlo y nos ofreció otra mesa, pero apartada en un patio lateral sucio donde los niños estaban jugando a la pelota. Nos marchamos, era un lugar del que tenía buena opinión y al que solía ir, pero este tipo de cosas tiran todo por tierra",True,656,es,False,
+3210fc2e29e1cd5f,2017-03-26,2017,5,"Buen sitio para comer, espacioso y cómodo para ir en familia",True,60,es,False,
+575bcd305914445e,2017-04-09,2017,4,,False,0,,False,
