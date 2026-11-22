@@ -30,9 +30,9 @@
 - **Cobertura y estabilidad:** la exportación es una foto fija, suficiente para un MVP. Los ficheros son estables mientras Google mantenga Takeout.
 - **Si la fuente dejara de estar disponible:** se repetiría la exportación o se solicitaría de nuevo la API.
 
-### Plan de trabajo acordado con el tutor
+### Plan de trabajo 
 
-Tras plantear al tutor si convenía añadir un dataset público de reseñas, el plan acordado es **empezar solo con los datos del restaurante y añadir fuentes solo si hace falta**:
+El plan acordado es **empezar solo con los datos del restaurante y añadir fuentes solo si hace falta**:
 
 | Fase | Qué se hace | Decisión |
 |---|---|---|
