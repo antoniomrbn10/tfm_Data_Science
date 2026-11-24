@@ -3,14 +3,16 @@ Pipeline Bronze -> Silver -> Gold de reseñas de Google Business Profile
 (exportación Google Takeout del Cortijo Vistalegre).
 
 Uso (desde la raíz del repo):
-    python src/pipeline.py
+    python src/pipeline.py          # ejecución real: lee data/bronze/ y genera data/reviews.db
+    python src/pipeline.py --demo   # demostración con reseñas INVENTADAS (data/sample/bronze_demo/)
 
 Entrada : data/bronze/*.json        (inmutable, NO se sube al repo: contiene nombres)
 Salida  : data/reviews.db            (SQLite con tablas silver_reviews, gold_reviews y holdout_reviews)
-          data/sample/bronze_sample.json   (20 reseñas anonimizadas, sí va al repo)
-          data/sample/gold_sample.csv      (muestra del Gold)
-          data/sample/holdout_ids.csv      (ids del conjunto reservado, congelado y reproducible)
+          data/sample/holdout_ids.csv      (solo ids hash del conjunto reservado; no contiene texto)
+Demo    : entrada data/sample/bronze_demo/*.json -> salida data/sample/demo_silver.csv y demo_gold.csv
+          (reseñas inventadas: así se enseña el proceso en GitHub sin publicar texto real)
 """
+import argparse
 import glob
 import hashlib
 import json
@@ -25,6 +27,7 @@ DetectorFactory.seed = 0  # resultados reproducibles
 ROOT = Path(__file__).resolve().parents[1]
 BRONZE = ROOT / "data" / "bronze"
 SAMPLE = ROOT / "data" / "sample"
+DEMO_BRONZE = SAMPLE / "bronze_demo"
 DB = ROOT / "data" / "reviews.db"
 
 # Conjunto reservado para la comprobación final (se fija aquí, antes de modelar)
@@ -40,9 +43,9 @@ ORIGINAL = "(Original)"
 # --------------------------------------------------------------------------
 # BRONZE: leer los JSON tal cual llegan (no se modifican)
 # --------------------------------------------------------------------------
-def read_bronze() -> list[dict]:
+def read_bronze(directory: Path = BRONZE) -> list[dict]:
     reviews = []
-    for path in sorted(glob.glob(str(BRONZE / "*.json"))):
+    for path in sorted(glob.glob(str(directory / "*.json"))):
         with open(path, encoding="utf-8") as f:
             reviews.extend(json.load(f)["reviews"])
     return reviews
@@ -145,19 +148,15 @@ def build_holdout(gold: pd.DataFrame) -> pd.DataFrame:
     return hold[["review_id", "stratum"]].sort_values("review_id").reset_index(drop=True)
 
 
-# --------------------------------------------------------------------------
-# Muestra anonimizada de Bronze para el repositorio
-# --------------------------------------------------------------------------
-def write_bronze_sample(raw: list[dict], n: int = 20) -> None:
-    sample = []
-    for r in raw[:n]:
-        r = dict(r)
-        r["reviewer"] = {"displayName": "ANON"}
-        r["name"] = "anon/" + anon_id(r["name"])
-        sample.append(r)
-    SAMPLE.mkdir(parents=True, exist_ok=True)
-    with open(SAMPLE / "bronze_sample.json", "w", encoding="utf-8") as f:
-        json.dump({"reviews": sample}, f, ensure_ascii=False, indent=1)
+def run_demo() -> None:
+    """Mismo proceso con reseñas inventadas: sin base de datos y sin texto real."""
+    raw = read_bronze(DEMO_BRONZE)
+    silver = build_silver(raw)
+    gold = build_gold(silver)
+    silver.to_csv(SAMPLE / "demo_silver.csv", index=False)
+    gold.to_csv(SAMPLE / "demo_gold.csv", index=False)
+    print(f"DEMO | Bronze: {len(raw)} reseñas (inventadas) -> Silver: {len(silver)} -> Gold: {len(gold)}")
+    print("Salida: data/sample/demo_silver.csv y data/sample/demo_gold.csv")
 
 
 def main() -> None:
@@ -175,9 +174,8 @@ def main() -> None:
         holdout = build_holdout(gold)
         holdout.to_sql("holdout_reviews", con, if_exists="replace", index=False)
 
-    write_bronze_sample(raw)
-    gold.head(30).to_csv(SAMPLE / "gold_sample.csv", index=False)
-    holdout.to_csv(SAMPLE / "holdout_ids.csv", index=False)
+    SAMPLE.mkdir(parents=True, exist_ok=True)
+    holdout.to_csv(SAMPLE / "holdout_ids.csv", index=False)  # solo ids hash, sin texto
 
     print(f"Bronze: {len(raw)} reseñas en {len(glob.glob(str(BRONZE / '*.json')))} ficheros")
     print(f"Silver: {len(silver)} filas | Gold: {len(gold)} filas -> {DB.name}")
@@ -185,4 +183,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Pipeline Bronze -> Silver -> Gold")
+    parser.add_argument("--demo", action="store_true", help="usar las reseñas inventadas de data/sample/bronze_demo/")
+    args = parser.parse_args()
+    run_demo() if args.demo else main()
