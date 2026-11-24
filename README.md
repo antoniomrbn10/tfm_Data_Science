@@ -60,6 +60,3 @@ python src/pipeline.py
   repetida a propósito para mostrar la deduplicación.
 - Los identificadores de `holdout_ids.csv` son hashes y no contienen texto.
 
-## Documentación
-
-- [Entrega 2 · Datos y preparación](docs/entregas/02_datos_y_preparacion.md)
