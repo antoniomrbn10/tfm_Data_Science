@@ -1,0 +1,87 @@
+{
+ "reviews": [
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 1"
+   },
+   "starRating": "FIVE",
+   "createTime": "2019-06-02T14:03:11.482913Z",
+   "updateTime": "2019-06-02T14:03:11.482913Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0001",
+   "comment": "Comida casera riquísima y trato muy amable. Volveremos seguro.\n\n(Translated by Google)\nDelicious home-made food and very friendly staff. We will definitely come back."
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 2"
+   },
+   "starRating": "FOUR",
+   "createTime": "2020-09-19T20:41:55.100211Z",
+   "updateTime": "2020-09-19T20:41:55.100211Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0002",
+   "comment": "Buen sitio, pero tardaron bastante en servirnos los postres."
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 3"
+   },
+   "starRating": "ONE",
+   "createTime": "2021-03-21T23:45:20.586153Z",
+   "updateTime": "2021-03-21T23:45:20.586153Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0003",
+   "comment": "Mala experiencia: esperamos más de una hora y el plato llegó frío. No lo recomiendo.",
+   "reviewReply": {
+    "comment": "Lamentamos que su visita no haya estado a la altura de lo que esperaba. Nos tomamos muy en serio su comentario. ¿Podría escribirnos a restaurante@ejemplo.com? El equipo del restaurante",
+    "updateTime": "2021-03-21T23:45:20.586153Z"
+   }
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 4"
+   },
+   "starRating": "FIVE",
+   "createTime": "2021-08-07T12:00:00.000000Z",
+   "updateTime": "2021-08-07T12:00:00.000000Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0004"
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 5"
+   },
+   "starRating": "THREE",
+   "createTime": "2022-02-12T18:30:44.317762Z",
+   "updateTime": "2022-02-12T18:30:44.317762Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0005",
+   "comment": "Productos de calidad pero un poco caro para lo que ponen."
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 6"
+   },
+   "starRating": "FIVE",
+   "createTime": "2022-07-30T13:15:02.907431Z",
+   "updateTime": "2022-07-30T13:15:02.907431Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0006",
+   "comment": "(Translated by Google) We loved the food and the quiet terrace.\n\n(Original)\nNos encantó la comida y la terraza tranquila."
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 7"
+   },
+   "starRating": "TWO",
+   "createTime": "2023-04-08T21:10:09.664120Z",
+   "updateTime": "2023-04-08T21:10:09.664120Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0007",
+   "comment": "Servicio lento y camareros poco atentos."
+  },
+  {
+   "reviewer": {
+    "displayName": "Cliente Ficticio 8"
+   },
+   "starRating": "FIVE",
+   "createTime": "2024-01-27T15:22:31.050008Z",
+   "updateTime": "2024-01-27T15:22:31.050008Z",
+   "name": "accounts/DEMO/locations/DEMO/reviews/demo-0008",
+   "comment": "Excelente relación calidad-precio.\n\n(Translated by Google)\nExcellent value for money."
+  }
+ ]
+}
