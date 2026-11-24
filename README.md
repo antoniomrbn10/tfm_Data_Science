@@ -20,8 +20,6 @@ Cortijo Vistalegre (Cazalla de la Sierra), con autorización de los propietarios
 │   └── 02_datos.ipynb               # exploración de los datos (EDA), sin texto de reseñas
 └── data/
     ├── plantillas_respuesta.md      # plantillas de respuesta validadas con los propietarios
-    ├── bronze/                      # ⚠ datos reales (43 JSON de Google Takeout). NO está en el repo
-    ├── reviews.db                   # ⚠ base de datos generada. NO está en el repo
     └── sample/                      # lo único de datos que sí está en el repo
         ├── bronze_demo/             #   reseñas INVENTADAS en formato Takeout (entrada de la demo)
         ├── demo_silver.csv          #   resultado de la demo: capa Silver
