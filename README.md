@@ -12,7 +12,8 @@ Cortijo Vistalegre (Cazalla de la Sierra), con autorización de los propietarios
 ├── .gitignore                       # excluye los datos reales (en la raíz)
 ├── requirements.txt
 ├── docs/entregas/
-│   └── 02_datos_y_preparacion.md    # documento de la entrega 2
+    └── 01_ideas_producto.md
+│   └── 02_datos_y_preparacion.md    
 ├── src/
 │   └── pipeline.py                  # script Bronze -> Silver -> Gold
 ├── notebooks/
