@@ -1,0 +1,13 @@
+review_id,created_at,year,rating,text,has_text,n_chars,lang,has_reply,reply_text
+a5ad667e548051d2,2019-06-02,2019,5,Comida casera riquísima y trato muy amable. Volveremos seguro.,True,62,es,False,
+f5ba345813740b40,2020-09-19,2020,4,"Buen sitio, pero tardaron bastante en servirnos los postres.",True,60,es,False,
+3c6528bba8bb2643,2021-03-21,2021,1,Mala experiencia: esperamos más de una hora y el plato llegó frío. No lo recomiendo.,True,84,es,True,Lamentamos que su visita no haya estado a la altura de lo que esperaba. Nos tomamos muy en serio su comentario. ¿Podría escribirnos a restaurante@ejemplo.com? El equipo del restaurante
+420bef29bada7182,2021-08-07,2021,5,,False,0,,False,
+6f084fc1b451191b,2022-02-12,2022,3,Productos de calidad pero un poco caro para lo que ponen.,True,57,es,False,
+f617809f52b52d4f,2022-07-30,2022,5,Nos encantó la comida y la terraza tranquila.,True,45,es,False,
+b1e0bf656b004d3d,2023-04-08,2023,2,Servicio lento y camareros poco atentos.,True,40,es,False,
+9a63deeb1ce79383,2024-01-27,2024,5,Excelente relación calidad-precio.,True,34,es,False,
+df13ce3f07dabcd6,2024-10-13,2024,4,,False,0,,False,
+70122dfadeb85072,2025-05-03,2025,5,"Ideal para una comida en familia, platos abundantes.",True,52,es,False,
+162b5100f51aebfc,2025-11-16,2025,1,,False,0,,False,
+85bf4cdbb0ac8f16,2026-03-01,2026,4,"Muy buena carne, el local un poco ruidoso.",True,42,es,False,
