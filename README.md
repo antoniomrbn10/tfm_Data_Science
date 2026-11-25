@@ -12,8 +12,6 @@ Cortijo Vistalegre (Cazalla de la Sierra), con autorización de los propietarios
 ├── .gitignore                       # excluye los datos reales (en la raíz)
 ├── requirements.txt
 ├── docs/
-│   ├── guia_etiquetado.md           # qué significa "requiere atención" (ejemplos inventados)
-│   ├── protocolo_evaluacion.md      # reglas de la evaluación, fijadas antes de evaluar
 │   └── entregas/
 │       ├── 02_datos_y_preparacion.md
 │       └── 03_machine_learning.md
