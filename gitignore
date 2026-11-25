@@ -1,4 +1,14 @@
-# Datos con nombres de usuarios: NO subir
+# Datos reales: contienen texto de reseñas de clientes. NO subir.
 data/bronze/
 data/reviews.db
+
+# Python / Jupyter
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secretos
+.env
+
+# Hojas de etiquetado con texto real de clientes
+*PRIVADO*
